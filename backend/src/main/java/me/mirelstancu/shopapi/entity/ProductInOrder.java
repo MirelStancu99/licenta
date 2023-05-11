@@ -20,7 +20,6 @@ public class ProductInOrder {
     private Long id;
 
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.REMOVE)
-//    @JoinColumn(name = "cart_id")
     @JsonIgnore
     private Cart cart;
 
@@ -33,38 +32,20 @@ public class ProductInOrder {
     @NotEmpty
     private String productId;
 
-    /**
-     * 名字.
-     */
     @NotEmpty
     private String productName;
 
-    /**
-     * 描述.
-     */
     @NotNull
     private String productDescription;
 
-    /**
-     * 小图.
-     */
     private String productIcon;
 
-    /**
-     * 类目编号.
-     */
     @NotNull
     private Integer categoryType;
 
-    /**
-     * 单价.
-     */
     @NotNull
     private BigDecimal productPrice;
 
-    /**
-     * 库存.
-     */
     @Min(0)
     private Integer productStock;
 
