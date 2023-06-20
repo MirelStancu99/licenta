@@ -1,11 +1,9 @@
-# Online Shop Application
+# Rental of musical instruments Web Application
 
-#### A full-stack Online Shop web application using Spring Boot 2 and Angular 7. 
-This is a Single Page Appliaction with client-side rendering.
-The frontend client makes API calls to the backend server when it is running.
+#### A comprehensive web application for online rental, incorporating both front-end and back-end development using Spring Boot 2 and Angular 7.
+The web application is designed as a Single Page Application, utilizing client-side rendering. 
+The frontend client interacts with the backend server by making API calls while the server is operational.
 
-## Screenshot
-![](https://raw.githubusercontent.com/zhulinn/blog/hexo/source/uploads/post_pics/spring-angular/cart.png)
 
 ## Features
 - REST API
@@ -37,7 +35,7 @@ The frontend client makes API calls to the backend server when it is running.
 
 ## Database Schema
 
-![](https://raw.githubusercontent.com/zhulinn/blog/hexo/source/uploads/post_pics/spring-angular/db.png)
+![](https://i.ibb.co/Ytm6scH/db-1.png)
 
 ## How to  Run
 
