@@ -53,7 +53,7 @@ export class CardComponent implements OnInit, OnDestroy {
       this.productService.getAllInPage(+page, +size)
         .subscribe(page => {
           this.page = page;
-          this.title = 'Get Whatever You Want!';
+          this.title = 'Any kind of instrument you can find with us!';
         });
     } else { //  /category/:id
       const type = this.route.snapshot.url[1].path;
