@@ -13,7 +13,7 @@
         <br>
         <a routerLink="/product/{{productInfo.productId}}" *ngIf="productInfo.productStatus == 0; else offBlock"
            class="btn btn-primary btn-lg"
-        >Get It!</a>
+        >Rent It!</a>
         <ng-template #offBlock><a class="btn btn-secondary btn-lg disabled">Unavailable</a></ng-template>
       </div>
     </div>

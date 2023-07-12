@@ -101,7 +101,7 @@ Authorization: Bearer {{token}}
   "password": "1234",
   "name": "customer1",
   "phone": "6789",
-  "address": "3200 West Road",
+  "address": "Piata Victoriei 15",
   "active": false,
   "role": "ROLE_CUSTOMER",
   "authorities": [
@@ -126,14 +126,14 @@ Authorization: Bearer {{token}}
 
 {
   "productId": "B0002",
-  "productName": "Spring In Action",
+  "productName": "Epiphone Les Paul Studio LT HCS",
   "productPrice": 20.00,
   "productStock": 195,
-  "productDescription": "Learn Spring",
-  "productIcon": "https://images-na.ssl-images-amazon.com/images/I/51gHy16h5TL._SX397_BO1,204,203,200_.jpg",
+  "productDescription": "Chitara electrica Epiphone Les Paul Studio LT HCS",
+  "productIcon": "https://static.flymusic.ro/img/p/2/2/1/9/4/7/221947-superlarge_default.jpg",
   "productStatus": 1,
   "categoryType": 0,
-  "updateTime": "2019-01-05T03:43:29.047+0000"
+  "updateTime": "2023-03-10T10:35:43.047+0000"
 }
 
 ###
@@ -146,11 +146,11 @@ Authorization: Bearer {{token}}
 
 {
   "productId": "B0022",
-  "productName": "Spring In Action",
+  "productName": "Epiphone Les Paul Studio LT HCS",
   "productPrice": 20.00,
   "productStock": 195,
-  "productDescription": "Learn Spring",
-  "productIcon": "https://images-na.ssl-images-amazon.com/images/I/51gHy16h5TL._SX397_BO1,204,203,200_.jpg",
+  "productDescription": "Chitara electrica Epiphone Les Paul Studio LT HCS",
+  "productIcon": "https://static.flymusic.ro/img/p/2/2/1/9/4/7/221947-superlarge_default.jpg",
   "productStatus": 0,
   "categoryType": 1
 }

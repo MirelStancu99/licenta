@@ -35,12 +35,6 @@ public class ProductController {
     public ProductInfo showOne(@PathVariable("productId") String productId) {
 
         ProductInfo productInfo = productService.findOne(productId);
-
-//        // Product is not available
-//        if (productInfo.getProductStatus().equals(ProductStatusEnum.DOWN.getCode())) {
-//            productInfo = null;
-//        }
-
         return productInfo;
     }
 

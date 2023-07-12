@@ -60,18 +60,6 @@ public class ProductServiceImplTest {
         Mockito.verify(productInfoRepository, Mockito.times(1)).save(productInfo);
     }
 
-//    @Test(expected = MyException.class)
-//    public void decreaseStockValueLesserEqualTest() {
-//        when(productInfoRepository.findByProductId(productInfo.getProductId())).thenReturn(productInfo);
-//
-//        productService.decreaseStock("1", 10);
-//    }
-//
-//    @Test(expected = MyException.class)
-//    public void decreaseStockExceptionTest() {
-//        productService.decreaseStock("1", 10);
-//    }
-
     @Test
     public void offSaleTest() {
         productInfo.setProductStatus(ProductStatusEnum.UP.getCode());
